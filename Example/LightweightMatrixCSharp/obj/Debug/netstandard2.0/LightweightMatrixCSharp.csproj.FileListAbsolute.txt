@@ -1,0 +1,7 @@
+C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\bin\Debug\netstandard2.0\LightweightMatrixCSharp.deps.json
+C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\bin\Debug\netstandard2.0\LightweightMatrixCSharp.dll
+C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\bin\Debug\netstandard2.0\LightweightMatrixCSharp.pdb
+C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.AssemblyInfoInputs.cache
+C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.AssemblyInfo.cs
+C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.dll
+C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.pdb
