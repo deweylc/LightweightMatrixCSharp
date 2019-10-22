@@ -7,3 +7,12 @@ C:\Users\Dzt\Desktop\C#学习\Matrix\obj\Debug\_Matrix_.csprojAssemblyReference.
 C:\Users\Dzt\Desktop\C#学习\Matrix\obj\Debug\_Matrix_.csproj.CopyComplete
 C:\Users\Dzt\Desktop\C#学习\Matrix\obj\Debug\Matrix.exe
 C:\Users\Dzt\Desktop\C#学习\Matrix\obj\Debug\Matrix.pdb
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\bin\Debug\Matrix.exe.config
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\bin\Debug\Matrix.exe
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\bin\Debug\Matrix.pdb
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\bin\Debug\LightweightMatrixCSharp.dll
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\bin\Debug\LightweightMatrixCSharp.pdb
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\obj\Debug\_Matrix_.csprojAssemblyReference.cache
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\obj\Debug\_Matrix_.csproj.CopyComplete
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\obj\Debug\Matrix.exe
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\Matrix\obj\Debug\Matrix.pdb

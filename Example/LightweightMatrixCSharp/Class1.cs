@@ -77,8 +77,8 @@ namespace LightweightMatrixCSharp
         public void MakeLU()                        // Function for LU decomposition //LU分解
         {
             if (!IsSquare()) throw new MException("The matrix is not square!");
-            L = IdentityMatrix(rows, cols);
-            U = Duplicate();
+            L = IdentityMatrix(rows, cols);//创建单位矩阵
+            U = Duplicate();//拷贝
 
             pi = new int[rows];
             for (int i = 0; i < rows; i++) pi[i] = i;
@@ -91,7 +91,7 @@ namespace LightweightMatrixCSharp
             for (int k = 0; k < cols - 1; k++)
             {
                 p = 0;
-                for (int i = k; i < rows; i++)      // find the row with the biggest pivot
+                for (int i = k; i < rows; i++)      // find the row with the biggest pivot //寻找第k列的最大主元
                 {
                     if (Math.Abs(U[i, k]) > p)
                     {
@@ -100,7 +100,7 @@ namespace LightweightMatrixCSharp
                     }
                 }
                 if (p == 0) // samé nuly ve sloupci
-                    throw new MException("The matrix is singular!");
+                    throw new MException("The matrix is singular!");//如果主元为1，则矩阵为奇异矩阵，DET为0
 
                 pom1 = pi[k]; pi[k] = pi[k0]; pi[k0] = pom1;    // switch two rows in permutation matrix
 
@@ -267,6 +267,7 @@ namespace LightweightMatrixCSharp
 
         public static Matrix IdentityMatrix(int iRows, int iCols)   // Function generates the identity matrix
         {
+
             Matrix matrix = ZeroMatrix(iRows, iCols);
             for (int i = 0; i < Math.Min(iRows, iCols); i++)
                 matrix[i, i] = 1;
@@ -604,6 +605,19 @@ namespace LightweightMatrixCSharp
             return matStr.Trim();
         }
 
+        public Matrix ChangeRow(int i, int j)//switch two rows in permutation matrix 交换矩阵的第i行与第j行
+        {
+            Matrix m = Duplicate();
+            double temp = 0;
+            for (int k = 0; k < m.cols; k++)
+            {
+                temp = m[i, k];
+                m[i, k] = m[j, k];
+                m[j, k] = temp;
+
+            }
+            return m;
+        }
         //   O P E R A T O R S
 
         public static Matrix operator -(Matrix m)

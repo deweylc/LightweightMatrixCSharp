@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\LightweightMatrixCSharp\\Example\\LightweightMatrixCSharp\\LightweightMatrixCSharp.csproj": {}
+    "E:\\GitHub\\LightweightMatrixCSharp_Dewey\\Example\\LightweightMatrixCSharp\\LightweightMatrixCSharp.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\LightweightMatrixCSharp\\Example\\LightweightMatrixCSharp\\LightweightMatrixCSharp.csproj": {
+    "E:\\GitHub\\LightweightMatrixCSharp_Dewey\\Example\\LightweightMatrixCSharp\\LightweightMatrixCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\LightweightMatrixCSharp\\Example\\LightweightMatrixCSharp\\LightweightMatrixCSharp.csproj",
+        "projectUniqueName": "E:\\GitHub\\LightweightMatrixCSharp_Dewey\\Example\\LightweightMatrixCSharp\\LightweightMatrixCSharp.csproj",
         "projectName": "LightweightMatrixCSharp",
-        "projectPath": "E:\\GitHub\\LightweightMatrixCSharp\\Example\\LightweightMatrixCSharp\\LightweightMatrixCSharp.csproj",
+        "projectPath": "E:\\GitHub\\LightweightMatrixCSharp_Dewey\\Example\\LightweightMatrixCSharp\\LightweightMatrixCSharp.csproj",
         "packagesPath": "C:\\Users\\Dzt\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\LightweightMatrixCSharp\\Example\\LightweightMatrixCSharp\\obj\\",
+        "outputPath": "E:\\GitHub\\LightweightMatrixCSharp_Dewey\\Example\\LightweightMatrixCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

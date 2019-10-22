@@ -5,3 +5,11 @@ C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\obj\Debug\netstandard2.0\L
 C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.AssemblyInfo.cs
 C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.dll
 C:\Users\Dzt\Desktop\C#学习\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.pdb
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\LightweightMatrixCSharp\bin\Debug\netstandard2.0\LightweightMatrixCSharp.deps.json
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\LightweightMatrixCSharp\bin\Debug\netstandard2.0\LightweightMatrixCSharp.dll
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\LightweightMatrixCSharp\bin\Debug\netstandard2.0\LightweightMatrixCSharp.pdb
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.csprojAssemblyReference.cache
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.AssemblyInfoInputs.cache
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.AssemblyInfo.cs
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.dll
+E:\GitHub\LightweightMatrixCSharp_Dewey\Example\LightweightMatrixCSharp\obj\Debug\netstandard2.0\LightweightMatrixCSharp.pdb
