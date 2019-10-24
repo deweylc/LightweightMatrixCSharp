@@ -13,6 +13,7 @@ namespace LightweightMatrixCSharp
 
         public Matrix L;
         public Matrix U;
+        public Matrix D;
         private int[] pi;
         private double detOfP = 1;
 
@@ -183,7 +184,7 @@ namespace LightweightMatrixCSharp
             }
         }
 
-        public Matrix Invert()                                   // Function returns the inverted matrix
+        public Matrix Invert()                                   // Function returns the inverted matrix 求矩阵的逆矩阵
         {
             if (L == null) MakeLU();
 
