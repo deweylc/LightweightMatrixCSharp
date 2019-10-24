@@ -17,16 +17,17 @@ namespace _Matrix_
                 "2\r\n" +
                 "3\r\n");
             Console.WriteLine(b.ToString());
-            m =Matrix.Parse("0.001 2.000 3.000\r\n" +
-                "-1.000 3.712 4.623\r\n" + 
-                "-2.000 1.072 5.643\r\n");
-            Console.WriteLine(m.ToString());
-            Matrix x = new Matrix(3,1);
-            x=function(m, b);
-            Console.WriteLine(x.ToString());
+            m =Matrix.Parse("1 2 1\r\n" +
+                "2 2 3\r\n" + 
+                "-1 -3 0\r\n");
+       //     Console.WriteLine(m.ToString());
+         //   Matrix x = new Matrix(3,1);
+        //    x= Gauss(m, b);
+         //   Console.WriteLine(x.ToString());
+            LU(ref m);
             Console.Read();
         }
-        static Matrix function(Matrix m,Matrix b)
+        static Matrix Gauss(Matrix m,Matrix b)
         {
             Matrix x = new Matrix(m.rows, 1);
             double det = 1;
@@ -98,7 +99,44 @@ namespace _Matrix_
             }
             return x;
         }
+        static void LU(ref Matrix m)
+        {
+            Console.WriteLine(m.ToString());
+            m.L = Matrix.IdentityMatrix(m.rows, m.cols);
+            m.U = Matrix.ZeroMatrix(m.rows, m.cols);
+            int n = m.rows;
+            for(int k=0;k<n;k++)
+            {
+                for(int i=k;i<n;i++)
+                {
+                    double s = 0;
+                    for(int j=0;j<=k-1;j++)
+                    {
+                        s = s + m.L[k, j] * m.U[j, i];
+                    }
+                    m.U[k, i] =Math.Round( m[k, i] - s,4);
+                }
+                
+                for(int i=k+1;i<n;i++)
+                {
+                    double sum = 0;
+                    for (int j = 0; j <= k - 1; j++)
+                    {
+                        sum = sum + m.L[i, j] * m.U[j, k];
+                    }
+                    m.L[i, k] = Math.Round((m[i, k] - sum) / m.U[k, k], 4);
+                }
 
+                
+                Console.WriteLine("L:");
+                Console.WriteLine(m.L.ToString());
+                Console.WriteLine("U:");
+                Console.WriteLine(m.U.ToString());
+            }
+            Matrix a = new Matrix(m.rows, m.cols);
+            a = m.L * m.U;
+            Console.WriteLine(a.ToString());
+        }
 
     }
 }
